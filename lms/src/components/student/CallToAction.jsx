@@ -9,7 +9,7 @@ const CallToAction = () => {
         Explore a world of knowledge with LearnNest. We're committed to helping you achieve your learning and career goals, one course at a time.
       </p>
       <div className='flex items-center font-medium gap-6 mt-4'>
-        <button className='px-10 py-3 rounded-md text-white bg-blue-600'>Get started</button>
+        <button className='px-10 py-3 rounded-md text-white bg-purple-600'>Get started</button>
         <button className='flex items-center gap-2'>Learn more <img src={assets.arrow_icon} alt="arrow_icon" /></button>
       </div>
     </div>

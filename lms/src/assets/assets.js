@@ -103,21 +103,21 @@ export const dummyEducatorData = {
 
 export const dummyTestimonial = [
     {
-        name: 'Donald Jackman',
+        name: 'Navraz Singh',
         role: 'SWE 1 @ Amazon',
         image: assets.profile_img_1,
         rating: 5,
         feedback: 'I\'ve been using Imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.',
     },
     {
-        name: 'Richard Nelson',
+        name: 'Kamalpreet Singh',
         role: 'SWE 2 @ Samsung',
         image: assets.profile_img_2,
         rating: 4,
         feedback: 'I\'ve been using Imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.',
     },
     {
-        name: 'James Washington',
+        name: 'Gurman Singh',
         role: 'SWE 2 @ Google',
         image: assets.profile_img_3,
         rating: 4.5,
@@ -283,7 +283,7 @@ export const dummyCourses = [
         "createdAt": "2024-12-17T08:16:53.622Z",
         "updatedAt": "2025-01-02T04:47:44.701Z",
         "__v": 4,
-        "courseThumbnail": "https://img.youtube.com/vi/CBWnBi-awSA/maxresdefault.jpg"
+        "courseThumbnail": "https://img.youtube.com/vi/ajdRvxDWH4w/maxresdefault.jpg"
     },
     {
         "_id": "675ac1512100b91a6d9b8b24",
@@ -355,7 +355,7 @@ export const dummyCourses = [
         "createdAt": "2024-12-17T08:16:53.622Z",
         "updatedAt": "2025-01-02T06:47:54.446Z",
         "__v": 3,
-        "courseThumbnail": "https://img.youtube.com/vi/HdLIMoQkXFA/maxresdefault.jpg"
+        "courseThumbnail": "https://img.youtube.com/vi/UrsmFxEIp5k/maxresdefault.jpg"
     },
     {
         "_id": "605c72efb3f1c2b1f8e4e1ae",
@@ -421,7 +421,7 @@ export const dummyCourses = [
         "createdAt": "2024-12-27T11:30:00.000Z",
         "updatedAt": "2024-12-31T04:14:49.773Z",
         "__v": 2,
-        "courseThumbnail": "https://img.youtube.com/vi/jZFaMEqEqEQ/maxresdefault.jpg"
+        "courseThumbnail": "https://img.youtube.com/vi/h3PNK1pq2OA/maxresdefault.jpg"
     },
     {
         "_id": "605c72efb3f1c2b1f8e4e1a7",
@@ -487,7 +487,7 @@ export const dummyCourses = [
         "createdAt": "2024-12-17T08:16:53.622Z",
         "updatedAt": "2024-12-31T05:31:27.290Z",
         "__v": 2,
-        "courseThumbnail": "https://img.youtube.com/vi/lpx2zFkapIk/maxresdefault.jpg"
+        "courseThumbnail": "https://img.youtube.com/vi/vz1RlUyrc3w/maxresdefault.jpg"
     },
     {
         "_id": "605c72efb3f1c2b1f8e4e1ac",
