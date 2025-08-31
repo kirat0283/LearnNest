@@ -55,7 +55,7 @@ import { useClerk, UserButton, useUser } from '@clerk/clerk-react'
 import { AppContext } from '../../context/AppContext'
 
 const Navbar = () => {
-  const { navigate } = useContext(AppContext)
+  const { navigate ,isEducator} = useContext(AppContext)
   const location = useLocation();
   const isCourseListPage = location.pathname.includes('/course-list');
   const { openSignIn } = useClerk()
@@ -76,7 +76,7 @@ const Navbar = () => {
         <div className='flex items-center gap-5'>
           {user &&
             <>
-              <button className='text-purple-700 hover:text-purple-500 transition'>Become Educator</button>
+              <button className='text-purple-700 hover:text-purple-500 transition' onClick={()=>{navigate('/educator')}}>{isEducator ? 'Educator Dashboard' : 'Become Educator'}</button>
               | <Link to='/my-enrollments' className='text-purple-700 hover:text-purple-500 transition'>My Enrollments</Link>
             </>
           }
@@ -98,7 +98,7 @@ const Navbar = () => {
         <div className='flex items-center gap-1 sm:gap-2 max-sm:text-xs'>
           {user &&
             <>
-              <button className='text-purple-700 hover:text-purple-500 transition'>Become Educator</button>
+              <button className='text-purple-700 hover:text-purple-500 transition' onClick={()=>{navigate('/educator')}}>{isEducator ? 'Educator Dashboard' : 'Become Educator'}</button>
               | <Link to='/my-enrollments' className='text-purple-700 hover:text-purple-500 transition'>My Enrollments</Link>
             </>
           }
