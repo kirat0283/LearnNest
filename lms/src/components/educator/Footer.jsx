@@ -20,10 +20,10 @@ const Footer = () => {
           <a href="https://www.facebook.com/" className="hover:scale-110 transition">
             <img src={assets.facebook_icon} alt="facebook_icon" className="w-6 h-6" />
           </a>
-          <a href="#" className="hover:scale-110 transition">
+          <a href="https://www.x.com/" className="hover:scale-110 transition">
             <img src={assets.twitter_icon} alt="twitter_icon" className="w-6 h-6" />
           </a>
-          <a href="#" className="hover:scale-110 transition">
+          <a href="https://www.instagram.com/" className="hover:scale-110 transition">
             <img src={assets.instagram_icon} alt="instagram_icon" className="w-6 h-6" />
           </a>
         </div>
