@@ -30,8 +30,8 @@ const Player = () => {
     }, [enrolledCourses])
 
     return (
-        <div className='flex flex-col min-h-screen'> {/* This is the new parent container for the sticky footer layout */}
-            <div className='p-4 sm:p-10 flex flex-col-reverse md:grid md:grid-cols-2 gap-10 md:px-36 flex-grow'> {/* Add flex-grow to push footer down */}
+        <div className='flex flex-col min-h-screen'> 
+            <div className='p-4 sm:p-10 flex flex-col-reverse md:grid md:grid-cols-2 gap-10 md:px-36 flex-grow'> 
                 {/* {left column} */}
                 <div className='text-gray-800'>
                     <h2 className='text-xl font-semibold'>Course Structure</h2>
