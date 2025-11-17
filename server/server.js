@@ -17,7 +17,20 @@ await connectDB()
 await connectCloudinary()
 
 //middlewares
-app.use(cors())
+
+// app.use(cors())
+
+app.use(
+  cors({
+    origin: "https://learn-nest-283.vercel.app",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
+
+// Fix preflight requests (important)
+app.options("*", cors());
+
 app.use(clerkMiddleware())
 
 //routes
